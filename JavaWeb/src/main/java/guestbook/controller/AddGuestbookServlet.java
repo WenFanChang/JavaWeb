@@ -34,11 +34,8 @@ public class AddGuestbookServlet extends HttpServlet{
 		//3.儲存留言記錄到集合中
 		GuestbookDao dao = new GuestbookDao();
 		dao.addGuestbook(guestbook);
-		List<Guestbook> guestbooks = dao.findAllGuestbooks();
-		RequestDispatcher rd = req.getRequestDispatcher("/from/guestbook_find.jsp");
-		req.setAttribute("guestbooks", guestbooks);
-		rd.forward(req, resp);
 		
+		resp.getWriter().print("/guestbook/add");
 		
 	}
 	
