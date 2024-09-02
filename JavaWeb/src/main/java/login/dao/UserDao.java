@@ -31,7 +31,7 @@ public class UserDao {
 
 	// 新增使用者
 	public Boolean addUser(User user) {
-		String sql = "insert into user(userName passwordHash, salt, email) values(?, ?, ?, ?)";
+		String sql = "insert into user(userName, passwordHash, salt, email) values(?, ?, ?, ?)";
 		try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
 			// 將參數內容注入到 sql 語句中
 			pstmt.setString(1, user.getUserName());
