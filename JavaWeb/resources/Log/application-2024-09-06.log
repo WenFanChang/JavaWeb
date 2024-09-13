@@ -1,0 +1,59 @@
+2024-09-06 19:26:21.310 [http-nio-8080-exec-1 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@123
+2024-09-06 19:28:59.809 [http-nio-8080-exec-6 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@com
+2024-09-06 19:29:46.304 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@com
+2024-09-06 19:29:46.589 [http-nio-8080-exec-1 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@com
+2024-09-06 19:29:46.903 [http-nio-8080-exec-2 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@com
+2024-09-06 19:46:19.213 [http-nio-8080-exec-3 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:46:19.294 [http-nio-8080-exec-3 ] INFO  login.controller.RegisterServlet - checkResult: true
+2024-09-06 19:46:49.045 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:46:49.081 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - checkResult: false
+2024-09-06 19:47:12.296 [http-nio-8080-exec-12] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:47:12.303 [http-nio-8080-exec-12] INFO  login.controller.RegisterServlet - checkResult: false
+2024-09-06 19:47:35.829 [http-nio-8080-exec-1 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:47:35.902 [http-nio-8080-exec-1 ] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 19:48:32.676 [http-nio-8080-exec-2 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:48:32.760 [http-nio-8080-exec-2 ] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 19:49:01.283 [http-nio-8080-exec-4 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:49:26.009 [http-nio-8080-exec-4 ] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 19:50:48.024 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:51:36.933 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 19:52:09.566 [http-nio-8080-exec-2 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:52:09.642 [http-nio-8080-exec-2 ] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 19:56:08.070 [http-nio-8080-exec-2 ] INFO  login.controller.RegisterServlet - userName: frank, password: 123, email: frank@gmail.com
+2024-09-06 19:56:08.125 [http-nio-8080-exec-2 ] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: frank
+2024-09-06 20:07:12.853 [http-nio-8080-exec-13] INFO  login.controller.RegisterServlet - userName: frank, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:07:12.900 [http-nio-8080-exec-13] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: frank
+2024-09-06 20:07:39.113 [http-nio-8080-exec-16] INFO  login.controller.RegisterServlet - userName: frankchang, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:07:39.130 [http-nio-8080-exec-16] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-06 20:07:42.501 [http-nio-8080-exec-16] INFO  login.service.EmailService - 寄信成功
+2024-09-06 20:16:51.983 [http-nio-8080-exec-17] INFO  login.controller.RegisterServlet - userName: frankchang, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:16:51.986 [http-nio-8080-exec-17] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: frankchang
+2024-09-06 20:17:22.172 [http-nio-8080-exec-19] INFO  login.controller.RegisterServlet - userName: franka, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:17:22.196 [http-nio-8080-exec-19] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 20:17:31.408 [http-nio-8080-exec-20] INFO  login.controller.RegisterServlet - userName: frankb, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:17:31.420 [http-nio-8080-exec-20] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 20:17:55.566 [http-nio-8080-exec-22] INFO  login.controller.RegisterServlet - userName: frankc, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:17:55.581 [http-nio-8080-exec-22] INFO  login.controller.RegisterServlet - 註冊結果: false
+2024-09-06 20:18:54.055 [http-nio-8080-exec-24] INFO  login.controller.RegisterServlet - userName: frankc, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:18:54.063 [http-nio-8080-exec-24] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-06 20:18:57.068 [http-nio-8080-exec-24] INFO  login.service.EmailService - 寄信成功
+2024-09-06 20:22:33.107 [http-nio-8080-exec-26] INFO  login.controller.RegisterServlet - userName: frankc, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 20:22:33.118 [http-nio-8080-exec-26] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-06 20:22:35.535 [http-nio-8080-exec-26] INFO  login.service.EmailService - 寄信成功
+2024-09-06 21:08:04.390 [http-nio-8080-exec-7 ] INFO  login.controller.RegisterServlet - userName: test, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 21:08:04.487 [http-nio-8080-exec-7 ] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-06 21:08:07.681 [http-nio-8080-exec-7 ] INFO  login.service.EmailService - 寄信成功
+2024-09-06 21:22:49.801 [http-nio-8080-exec-5 ] INFO  login.controller.RegisterServlet - userName: test2, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 21:22:49.860 [http-nio-8080-exec-5 ] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-06 21:22:53.190 [http-nio-8080-exec-5 ] INFO  login.service.EmailService - 寄信成功
+2024-09-06 21:23:11.553 [http-nio-8080-exec-6 ] INFO  login.controller.RegisterServlet - userName: test2, password: 1234, email: cs790103@hotmail.com
+2024-09-06 21:23:11.556 [http-nio-8080-exec-6 ] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: test2
+2024-09-06 21:23:36.792 [http-nio-8080-exec-14] INFO  login.controller.RegisterServlet - userName: test2, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 21:23:36.840 [http-nio-8080-exec-14] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: test2
+2024-09-06 21:34:33.643 [http-nio-8080-exec-4 ] INFO  login.controller.RegisterServlet - userName: test2, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 21:34:33.705 [http-nio-8080-exec-4 ] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: test2
+2024-09-06 21:36:02.648 [http-nio-8080-exec-9 ] INFO  login.controller.RegisterServlet - userName: , password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 21:36:02.659 [http-nio-8080-exec-9 ] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-06 21:36:05.272 [http-nio-8080-exec-9 ] INFO  login.service.EmailService - 寄信成功
+2024-09-06 21:36:40.320 [http-nio-8080-exec-3 ] INFO  login.controller.RegisterServlet - userName: test2, password: 1234, email: frank.chang0330@gmail.com
+2024-09-06 21:36:40.324 [http-nio-8080-exec-3 ] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: test2
