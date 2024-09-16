@@ -29,6 +29,12 @@
 				<label for="password">🤵 密碼</label>
 				<input name="password" type="text" placeholder="請輸入密碼">
 				</div>
+				</div>
+				<div class="pure-control-group">
+				<label for="authCode">🤵 驗證碼</label>
+				<input name="authCode" type="text" placeholder="請輸入驗證碼">
+				<img src="${pageContext.request.contextPath}/user/authcode" valign="middle">
+				</div>
 				<div class="pure-controls">
 					<button type="submit" class="pure-button pure-button-primary">登入</button>
 					✏️ <a href="${pageContext.request.contextPath}/user/register">註冊</a>

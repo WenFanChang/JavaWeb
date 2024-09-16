@@ -1,0 +1,5 @@
+2024-09-13 21:42:29.286 [http-nio-8080-exec-7 ] INFO  login.controller.RegisterServlet - userName: frank, password: 12345, email: frank.chang0330@gmail.com
+2024-09-13 21:42:29.373 [http-nio-8080-exec-7 ] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: frank
+2024-09-13 21:43:54.237 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - userName: julie, password: 12345, email: frank.chang0330@gmail.com
+2024-09-13 21:43:54.261 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - 註冊結果: true
+2024-09-13 21:43:57.355 [http-nio-8080-exec-10] INFO  login.service.EmailService - 寄信成功

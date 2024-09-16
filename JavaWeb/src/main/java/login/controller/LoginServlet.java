@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import login.dto.UserDto;
 import login.exception.LoginException;
 import login.service.UserService;
@@ -25,15 +26,28 @@ public class LoginServlet extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String authCode = req.getParameter("authCode");
 		String userName = req.getParameter("userName");
 		String password = req.getParameter("password");
 		
+		HttpSession session = req.getSession();
 		//比對登入資訊
 		try {
+			//比對驗證碼
+			String sessionAuthCode = (String)session.getAttribute("AuthCode");
+			if(!authCode.equals(sessionAuthCode)) {  //比對
+				throw new LoginException("驗證碼不符");
+			}
+			// 比對 userName & password 登入資訊
 			UserDto userDto = userService.verifyUser(userName, password);
 			req.setAttribute("userDto", userDto);
 			req.setAttribute("loginSuccess", true);
 			req.setAttribute("loginMessage", "登入成功");
+			//透過 session 來記錄登入成功資訊
+			session.setAttribute("loginStatus", true);   //登入狀態
+			session.setAttribute("loginName", userName);   //登入姓名
+			
+			
 		} catch (LoginException e) {
 			req.setAttribute("loginSuccess", false);
 			req.setAttribute("loginMessage", "登入失敗" + e.getMessage());

@@ -1,5 +1,48 @@
-2024-09-13 21:42:29.286 [http-nio-8080-exec-7 ] INFO  login.controller.RegisterServlet - userName: frank, password: 12345, email: frank.chang0330@gmail.com
-2024-09-13 21:42:29.373 [http-nio-8080-exec-7 ] ERROR login.controller.RegisterServlet - 註冊失敗使用者已存在: frank
-2024-09-13 21:43:54.237 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - userName: julie, password: 12345, email: frank.chang0330@gmail.com
-2024-09-13 21:43:54.261 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - 註冊結果: true
-2024-09-13 21:43:57.355 [http-nio-8080-exec-10] INFO  login.service.EmailService - 寄信成功
+2024-09-16 20:58:45.012 [http-nio-8080-exec-6 ] INFO  login.controller.RegisterServlet - 驗證碼: 6075
+2024-09-16 20:59:11.925 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - 驗證碼: 6291
+2024-09-16 21:00:35.872 [http-nio-8080-exec-14] INFO  login.controller.RegisterServlet - 驗證碼: 0766
+2024-09-16 21:05:20.299 [http-nio-8080-exec-18] INFO  login.controller.RegisterServlet - 驗證碼: 0070
+2024-09-16 21:05:21.640 [http-nio-8080-exec-11] INFO  login.controller.RegisterServlet - 驗證碼: 1563
+2024-09-16 21:05:44.958 [http-nio-8080-exec-3 ] INFO  login.controller.RegisterServlet - 驗證碼: 7743
+2024-09-16 21:08:34.838 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - 驗證碼: 9828
+2024-09-16 21:08:35.887 [http-nio-8080-exec-10] INFO  login.controller.RegisterServlet - 驗證碼: 5670
+2024-09-16 21:08:38.523 [http-nio-8080-exec-4 ] INFO  login.controller.RegisterServlet - 驗證碼: 6969
+2024-09-16 21:09:06.632 [http-nio-8080-exec-1 ] INFO  login.controller.RegisterServlet - 驗證碼: 4792
+2024-09-16 21:13:54.630 [http-nio-8080-exec-16] INFO  login.controller.RegisterServlet - 驗證碼: 2463
+2024-09-16 21:13:59.276 [http-nio-8080-exec-18] INFO  login.controller.RegisterServlet - 驗證碼: 4796
+2024-09-16 21:15:49.916 [http-nio-8080-exec-22] INFO  login.controller.RegisterServlet - 驗證碼: 2627
+2024-09-16 21:15:50.745 [http-nio-8080-exec-24] INFO  login.controller.RegisterServlet - 驗證碼: 8557
+2024-09-16 21:15:51.330 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - 驗證碼: 8263
+2024-09-16 21:16:49.777 [http-nio-8080-exec-24] INFO  login.controller.RegisterServlet - 驗證碼: 7965
+2024-09-16 21:16:51.937 [http-nio-8080-exec-29] INFO  login.controller.RegisterServlet - 驗證碼: 7200
+2024-09-16 21:17:04.686 [http-nio-8080-exec-22] INFO  login.controller.RegisterServlet - 驗證碼: 2207
+2024-09-16 21:17:07.384 [http-nio-8080-exec-22] INFO  login.controller.RegisterServlet - 驗證碼: 0350
+2024-09-16 21:17:09.426 [http-nio-8080-exec-27] INFO  login.controller.RegisterServlet - 驗證碼: 7486
+2024-09-16 21:17:24.643 [http-nio-8080-exec-30] INFO  login.controller.RegisterServlet - 驗證碼: 4952
+2024-09-16 21:17:25.146 [http-nio-8080-exec-26] INFO  login.controller.RegisterServlet - 驗證碼: 6699
+2024-09-16 21:17:25.561 [http-nio-8080-exec-33] INFO  login.controller.RegisterServlet - 驗證碼: 2189
+2024-09-16 21:17:26.002 [http-nio-8080-exec-34] INFO  login.controller.RegisterServlet - 驗證碼: 3861
+2024-09-16 21:17:26.426 [http-nio-8080-exec-27] INFO  login.controller.RegisterServlet - 驗證碼: 9558
+2024-09-16 21:17:39.946 [http-nio-8080-exec-33] INFO  login.controller.RegisterServlet - 驗證碼: 5475
+2024-09-16 21:18:10.655 [http-nio-8080-exec-32] INFO  login.controller.RegisterServlet - 驗證碼: 9881
+2024-09-16 21:18:11.129 [http-nio-8080-exec-34] INFO  login.controller.RegisterServlet - 驗證碼: 6947
+2024-09-16 21:18:11.568 [http-nio-8080-exec-38] INFO  login.controller.RegisterServlet - 驗證碼: 2520
+2024-09-16 21:18:12.001 [http-nio-8080-exec-33] INFO  login.controller.RegisterServlet - 驗證碼: 4702
+2024-09-16 21:18:12.463 [http-nio-8080-exec-40] INFO  login.controller.RegisterServlet - 驗證碼: 2779
+2024-09-16 21:18:12.938 [http-nio-8080-exec-32] INFO  login.controller.RegisterServlet - 驗證碼: 7118
+2024-09-16 21:18:34.656 [http-nio-8080-exec-4 ] INFO  login.controller.RegisterServlet - 驗證碼: 5898
+2024-09-16 21:18:48.346 [http-nio-8080-exec-6 ] INFO  login.controller.RegisterServlet - 驗證碼: 1790
+2024-09-16 21:18:48.893 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - 驗證碼: 6655
+2024-09-16 21:22:47.287 [http-nio-8080-exec-7 ] INFO  login.controller.RegisterServlet - 驗證碼: 3817
+2024-09-16 21:23:29.400 [http-nio-8080-exec-7 ] INFO  login.controller.RegisterServlet - 驗證碼: 1130
+2024-09-16 21:23:29.949 [http-nio-8080-exec-12] INFO  login.controller.RegisterServlet - 驗證碼: 5693
+2024-09-16 21:23:30.389 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - 驗證碼: 2067
+2024-09-16 21:23:30.802 [http-nio-8080-exec-9 ] INFO  login.controller.RegisterServlet - 驗證碼: 6349
+2024-09-16 21:23:31.461 [http-nio-8080-exec-13] INFO  login.controller.RegisterServlet - 驗證碼: 7812
+2024-09-16 21:23:32.090 [http-nio-8080-exec-14] INFO  login.controller.RegisterServlet - 驗證碼: 6117
+2024-09-16 21:23:32.627 [http-nio-8080-exec-12] INFO  login.controller.RegisterServlet - 驗證碼: 8328
+2024-09-16 21:23:33.043 [http-nio-8080-exec-8 ] INFO  login.controller.RegisterServlet - 驗證碼: 3294
+2024-09-16 21:23:33.451 [http-nio-8080-exec-9 ] INFO  login.controller.RegisterServlet - 驗證碼: 7693
+2024-09-16 21:23:35.889 [http-nio-8080-exec-15] INFO  login.controller.RegisterServlet - 驗證碼: 6292
+2024-09-16 21:23:36.227 [http-nio-8080-exec-13] INFO  login.controller.RegisterServlet - 驗證碼: 8425
+2024-09-16 21:39:11.565 [http-nio-8080-exec-4 ] INFO  login.controller.RegisterServlet - 驗證碼: 5391

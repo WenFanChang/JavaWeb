@@ -6,6 +6,8 @@
 <%
 	//接收 servlet 端傳來的資訊
 	List<UserDto> userDtos = (List<UserDto>)request.getAttribute("userDtos");
+	//的到session 內的 loginName的資料
+	String loginName = (String)session.getAttribute("loginName");
 
 %>
 <!DOCTYPE html>
@@ -18,7 +20,7 @@
 	<body style="padding: 15px">
 		<div class = "pure-form">
 			<fieldset>
-				<legend>User 列表</legend>
+				<legend>Hi <%=loginName %> 您好 ! User 列表</legend>
 				<table class="pure-table pure-table-bordered">
 					<thead>
 						<tr>
