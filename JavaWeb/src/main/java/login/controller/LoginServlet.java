@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet{
 		//比對登入資訊
 		try {
 			//比對驗證碼
-			String sessionAuthCode = (String)session.getAttribute("AuthCode");
+			String sessionAuthCode = (String)session.getAttribute("authCode");
 			if(!authCode.equals(sessionAuthCode)) {  //比對
 				throw new LoginException("驗證碼不符");
 			}
@@ -46,6 +46,13 @@ public class LoginServlet extends HttpServlet{
 			//透過 session 來記錄登入成功資訊
 			session.setAttribute("loginStatus", true);   //登入狀態
 			session.setAttribute("loginName", userName);   //登入姓名
+			// 檢查session 中有無 requestURI 的資料?
+			if(session.getAttribute("requestURI") != null) {
+				String requestURI = (String)session.getAttribute("sessionURI");
+				session.setAttribute("requestURI", null);  //
+				resp.sendRedirect(requestURI);   //重新導到指定地點
+				return;
+			}
 			
 			
 		} catch (LoginException e) {
