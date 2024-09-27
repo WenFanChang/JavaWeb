@@ -49,10 +49,10 @@ public class UserDao {
 	}
 
 	// 查詢使用者 by userName
-	public Optional<User> getUserByName(String userName) {
-		String sql = "select userId, userName, passwordHash, salt, email, active from user where userName = ?";
+	public Optional<User> getUserByName(Integer userId) {
+		String sql = "select userId, userName, passwordHash, salt, email, active from user where userId = ?";
 		try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-			pstmt.setString(1, userName);
+			pstmt.setInt(1, userId);
 			// 進行查詢
 			try (ResultSet rs = pstmt.executeQuery()) {
 				if (rs.next()) { // 假設有一筆資料) {
